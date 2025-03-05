@@ -9,6 +9,9 @@ public class ExcelGenerator {
 	public static void main(String[] args) {
 		System.out.println("Application Started....");
 		System.out.println("***********");
+		AddName nameObj = new AddName();
+		String name=nameObj.addName();
+		System.out.println(name);
 		String[] headers = { "Question", "Option A", "Option B", "Option C", "Option D", "Answer" };
 
 		// Full Data for 40 Questions
