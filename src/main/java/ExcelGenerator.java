@@ -7,6 +7,8 @@ import java.io.IOException;
 public class ExcelGenerator {
 
 	public static void main(String[] args) {
+		System.out.println("Application Started....");
+		System.out.println("***********");
 		String[] headers = { "Question", "Option A", "Option B", "Option C", "Option D", "Answer" };
 
 		// Full Data for 40 Questions
