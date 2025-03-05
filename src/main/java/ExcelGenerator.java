@@ -129,8 +129,8 @@ public class ExcelGenerator {
 		}
 
 		System.out.println("Excel file created successfully  Done!");
+		System.out.println("**********");
 		
 		
-		System.out.println("*********");
 	}
 }
