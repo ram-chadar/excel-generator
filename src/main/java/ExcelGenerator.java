@@ -12,6 +12,16 @@ public class ExcelGenerator {
 		AddName nameObj = new AddName();
 		String name=nameObj.addName();
 		System.out.println(name);
+		
+		System.out.println("Dhanashree Wadkar Task");
+		int a = 5;
+		for (int i = 0; i <= a; i++) {
+			for (int j = 0; j < i; j++) {
+				System.out.print("*");
+			}
+			System.out.println();
+		}
+		System.out.println("Dhanashree Wadkar Task Done");
 		String[] headers = { "Question", "Option A", "Option B", "Option C", "Option D", "Answer" };
 
 		// Full Data for 40 Questions
